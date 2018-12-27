@@ -20,7 +20,10 @@ public class CES extends Student {
 	
 	private static ArrayList<Student> ReadFile (String filepath) {
 		Scanner scanner = null;
+		
 		String for_develop_write_file = "";
+		String for_develop_write = "";
+		
 		
 		if (list == null) {
 			list = new ArrayList<Student>();
